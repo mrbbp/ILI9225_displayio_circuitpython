@@ -1,6 +1,6 @@
 # ILI9225_displayio_circuitpython
 
-a simple driver for ILI9225 TFT display (cheap display with µsdcard reader) in 176px x 220px, for using with displayIo and tileGrid from Adafruit. I did it because the one found online was useless.
+A simple driver for ILI9225 TFT display (cheap display, red pcb with µsdcard reader) in 176px x 220px, for using with displayIo and tileGrid from Adafruit. I did it because the one found online was a copy of Adafruit's Arduino driver and useless for my own experiments.
 Coded with ChatGPT with ST7735R driver as model.  
 There is no rotation on display (TODO), and display is used in portrait mode.  
 This is more an experiment with ai agent for coding driver (Mistral.ai vs Claude.ai vs ChatGPT) than a true driver. But i think this is a clean start for implement more features (please fork it!).  
