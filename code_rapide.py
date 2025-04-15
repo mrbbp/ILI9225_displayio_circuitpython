@@ -1,7 +1,7 @@
 import board
 import busio
 import time
-from ili9225_3 import ILI9225
+from ILI9225_Fast import ILI9225
 
 # Configuration de l'écran
 spi = busio.SPI(clock=board.GP6, MOSI=board.GP3)
